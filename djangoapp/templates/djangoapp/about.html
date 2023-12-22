@@ -1,0 +1,21 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<!--navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="{% url 'djangoapp:index' %}">Home</a>
+            <a class="nav-item nav-link active" href="{% url 'djangoapp:about' %}">About us</a>
+            <a class="nav-item nav-link" href="{% url 'djangoapp:contact' %}">Contact us</a>
+          </div>
+        </div>
+    </nav>
+<h1>
+Welcome to Best Cars dealership, home to the best cars in North America. We sell domestic and imported cars at reasonable prices.
+</h1>
+</html>
